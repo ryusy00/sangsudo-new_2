@@ -1,0 +1,1297 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <title>광주광역시 상수도사업본부</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="skip-nav"><a href="#main-content">본문 바로가기</a></div>
+
+    <!-- 상단바 -->
+    <header class="site-header sticky-top bg-white">
+    <!-- 상단 바 -->
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between align-items-center py-1">
+        <div class="d-flex align-items-center gap-2">
+            <span class="text-muted small">모바일에서도 동일 서비스 제공</span>
+        </div>
+        <div>
+            <a href="#!" class="small me-2">ENG</a>
+            <a href="#!" class="small me-2">로그인</a>
+            <a href="#!" class="small">누리집 전체메뉴</a>
+        </div>
+        </div>
+    </div>
+
+    <!-- 로고 / 검색 / 스마트고객민원 -->
+    <div class="container brand-area">
+        <div class="row align-items-center g-3">
+        <div class="col-12 col-lg-5">
+            <div class="brand-logo">
+            <a href="#"><img src="images/logo.png" alt="광주광역시 상수도사업본부" /></a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-7">
+            <div class="header-actions">
+            <form class="header-search d-flex" role="search">
+                <input
+                type="search"
+                class="form-control"
+                placeholder="검색어를 입력하세요"
+                aria-label="검색어를 입력하세요"
+                />
+                <button class="btn btn-primary" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <!-- 서울아리수본부 스타일 타사이트 이동 버튼 -->
+            <a
+                href="https://water.gwangju.go.kr/csPortal.do"
+                class="btn-smart-cs"
+                target="_blank"
+                rel="noopener"
+            >
+                <i class="fa-solid fa-headset"></i>
+                스마트고객민원
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- GNB + 메가메뉴 -->
+    <nav class="main-nav">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white main-navbar" aria-label="메인 메뉴">
+            <!-- 모바일 토글 -->
+            <button
+            class="navbar-toggler ms-auto my-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="메뉴 열기"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+            <!-- 데스크탑 GNB -->
+            <ul class="navbar-nav mx-auto main-gnb d-none d-lg-flex">
+                <li class="nav-item">
+                    <a class="nav-link main-gnb-link dropdown-toggle" href="#!" data-menu="citizen">시민참여공간</a>
+                    <span class="nav-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link main-gnb-link dropdown-toggle" href="#!" data-menu="news">소식과정보</a>
+                    <span class="nav-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link main-gnb-link dropdown-toggle" href="#!" data-menu="quality">상수도수질</a>
+                    <span class="nav-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link main-gnb-link dropdown-toggle" href="#!" data-menu="brand">빛여울수</a>
+                    <span class="nav-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link main-gnb-link dropdown-toggle" href="#!" data-menu="about">상수도본부</a>
+                    <span class="nav-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link main-gnb-link dropdown-toggle" href="#!" data-menu="branch">사업소안내</a>
+                    <span class="nav-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                </li>
+            </ul>
+
+            <!-- 모바일용(접힘 메뉴) : 간단 드롭다운 형태로 유지 -->
+            <ul class="navbar-nav d-lg-none w-100 mt-2">
+                <li class="nav-item">
+                    <button class="btn w-100 text-start mobile-gnb-toggle" data-bs-toggle="collapse"
+                        data-bs-target="#m-citizen">
+                        시민참여공간
+                    </button>
+                    <div class="collapse" id="m-citizen">
+                        <ul class="list-unstyled ps-3 pb-2 small">
+                            <li><a href="#!">상수도본부에 바란다</a></li>
+                            <li><a href="#!">부조리신고</a></li>
+                            <li><a href="#!">칭찬합니다</a></li>
+                            <li><a href="#!">FAQ</a></li>
+                            <li><a href="#!">고객질의/답변</a></li>
+                            <li><a href="#!">시민참여단모집</a></li>
+                            <li><a href="#!">수돗물체험캠프</a></li>
+                            <li><a href="#!">견학서비스 안내</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                <button class="btn w-100 text-start mobile-gnb-toggle" data-bs-toggle="collapse"
+                    data-bs-target="#m-news">
+                    소식과정보
+                </button>
+                <div class="collapse" id="m-news">
+                    <ul class="list-unstyled ps-3 pb-2 small">
+                    <li><a href="#!">새소식</a></li>
+                    <li><a href="#!">공지사항</a></li>
+                    <li><a href="#!">보도자료</a></li>
+                    <li><a href="#!">단수·공사 안내</a></li>
+                    <li><a href="#!">계약정보</a></li>
+                    <li><a href="#!">법령정보</a></li>
+                    </ul>
+                </div>
+                </li>
+                <!-- 나머지 메뉴들도 동일 패턴으로 추가 -->
+            </ul>
+            </div>
+        </nav>
+        </div>
+
+        <!-- 메가메뉴 패널 (데스크탑용) -->
+        <div class="gnb-mega" id="gnbMega" aria-hidden="true">
+        <div class="gnb-mega-inner container">
+            <!-- 시민참여공간 -->
+            <div class="gnb-mega-panel" data-menu="citizen">
+                <div class="row g-4">
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>상수도본부에 바란다</h3>
+                            <ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>부조리신고</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box"><h3>칭찬합시다</h3></div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box"><h3>FAQ</h3></div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box"><h3>고객질의/답변</h3></div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box"><h3>시민참여단모집</h3></div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box"><h3>수돗물체험캠프</h3></div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box"><h3>견학서비스 안내</h3></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 소식과정보 -->
+            <div class="gnb-mega-panel" data-menu="news">
+            <div class="row g-4">
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>행정서비스 현장</h3>
+                        <ul>
+                            <li><a href="#!">상수도서비스현장</a></li>
+                            <li><a href="#!">공동이행기준</a></li>
+                            <li><a href="#!">시민협조사항</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>행정정보공개</h3>
+                        <ul>
+                            <li><a href="#!">예산현황</a></li>
+                            <li><a href="#!">재정현황</a></li>
+                            <li><a href="#!">회계결산</a></li>
+                            <li><a href="#!">수의계약공개방</a></li>
+                            <li><a href="#!">행정처분안내</a></li>
+                            <li><a href="#!">정액급수공사비</a></li>
+                            <li><a href="#!">공공데이터 개방</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>상하수도 법령/조례</h3>
+                        <ul>
+                            <li><a href="#!">상·하수도관련법령</a></li>
+                            <li><a href="#!">상수도관련조례</a></li>
+                            <li><a href="#!">하수도관련조례</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>상수도소식</h3>
+                        <ul>
+                            <li><a href="#!">공지사항</a></li>
+                            <li><a href="#!">채용정보</a></li>
+                            <li><a href="#!">고시·공고/입법예고</a></li>
+                            <li><a href="#!">공시송달</a></li>
+                            <li><a href="#!">입찰공고</a></li>
+                            <li><a href="#!">발주계획</a></li>
+                            <li><a href="#!">공사안내</a></li>
+                            <li><a href="#!">단수예고</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- 상수도수질 -->
+            <div class="gnb-mega-panel" data-menu="quality">
+                <div class="row g-4">
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>수질정보</h3>
+                            <ul>
+                            <li><a href="#!">수도꼭지 수질검사결과</a></li>
+                            <li><a href="#!">주긴 수질검사결과</a></li>
+                            <li><a href="#!">월간 수질검사결과</a></li>
+                            <li><a href="#!">상수원 수질검사결과</a></li>
+                            <li><a href="#!">실시간 정수장 수질</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>수질검사</h3>
+                            <ul>
+                            <li><a href="#!">수질검사 기준</a></li>
+                            <li><a href="#!">검사항목과 주기</a></li>
+                            <li><a href="#!">수질기준의 변천과 검사현황</a></li>
+                            <li><a href="#!">수질감시</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>수돗물평가위원회</h3>
+                            <ul>
+                            <li><a href="#!">위원회 소개</a></li>
+                            <li><a href="#!">활동현황</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>수돗물평가위원회</h3>
+                            <ul>
+                            <li><a href="#!">위원회 소개</a></li>
+                            <li><a href="#!">활동현황</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>상수도참고</h3>
+                            <ul>
+                            <li><a href="#!">상수도용어</a></li>
+                            <li><a href="#!">상수도자료실</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 빛여울수 -->
+            <div class="gnb-mega-panel" data-menu="brand">
+            <div class="row g-4">
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>빛여울수</h3>
+                        <ul>
+                        <li><a href="#!">BI공개</a></li>
+                        <li><a href="#!">PET병 생산공정</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>수돗물생산과정</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>홍보영상자료</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>물이야기</h3>
+                        <ul>
+                        <li><a href="#!">물의 종류와 특성</a></li>
+                        <li><a href="#!">궁금한 수질문제</a></li>
+                        <li><a href="#!">안전한 수돗물</a></li>
+                        <li><a href="#!">광주상수도 100년사</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>물절약 캠페인</h3>
+                        <ul>
+                        <li><a href="#!">물절약 캠페인</a></li>
+                        <li><a href="#!">물절약 동영상</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- 상수도본부 -->
+            <div class="gnb-mega-panel" data-menu="about">
+                <div class="row g-4">
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>본부장 인사말</h3>
+                            <ul>
+                                <li><a href="#!">인사말</a></li>
+                                <li><a href="#!">비전·경영목표</a></li>
+                                <li><a href="#!">조직·업무안내</a></li>
+                                <li><a href="#!">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>연혁</h3>
+                            <ul>
+                                <li><a href="#!">기구연혁</a></li>
+                                <li><a href="#!">시설연혁</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>상수도비전</h3>
+                            <ul>
+                                <li><a href="#!">목표</a></li>
+                                <li><a href="#!">주요정책</a></li>
+                                <li><a href="#!">주요업무계획</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>조직 및 기능</h3>
+                            <ul>
+                                <li><a href="#!">조직도</a></li>
+                                <li><a href="#!">부서별전화번호</a></li>
+                                <li><a href="#!">주요민원전화안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>상수도현황</h3>
+                            <ul>
+                                <li><a href="#!">시설현황</a></li>
+                                <li><a href="#!">급수구역</a></li>
+                                <li><a href="#!">급수현황</a></li>
+                                <li><a href="#!">상수원보호구역</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>찾아오시는길</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="gnb-mega-box">
+                            <h3>사업소·정수장소개</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 사업소안내 -->
+            <div class="gnb-mega-panel" data-menu="branch">
+            <div class="row g-4">
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>사업소 안내</h3>
+                        <ul>
+                            <li><a href="#!">수도계량기실</a></li>
+                            <li><a href="#!">계량기알아보기</a></li>
+                            <li><a href="#!">배수지란</a></li>
+                            <li><a href="#!">가압장이란</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>용연정수사업소</h3>
+                        <ul>
+                            <li><a href="#!">일반현황</a></li>
+                            <li><a href="#!">조직안내</a></li>
+                            <li><a href="#!">전화번호</a></li>
+                            <li><a href="#!">찾아오시는 길</a></li>
+                            <li><a href="#!">시설현황</a></li>
+                            <li><a href="#!">정수장둘러보기</a></li>
+                            <li><a href="#!">각화정수장</a></li>
+                            <li><a href="#!">동복취수장</a></li>
+                            <li><a href="#!">동복호이주민쉼터</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>덕남정수사업소</h3>
+                        <ul>
+                            <li><a href="#!">일반현황</a></li>
+                            <li><a href="#!">조직안내</a></li>
+                            <li><a href="#!">전화번호</a></li>
+                            <li><a href="#!">찾아오시는길</a></li>
+                            <li><a href="#!">시설현황</a></li>
+                            <li><a href="#!">정수장둘러보기</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>수질연구소</h3>
+                        <ul>
+                            <li><a href="#!">일반현황</a></li>
+                            <li><a href="#!">조직안내</a></li>
+                            <li><a href="#!">전화번호</a></li>
+                            <li><a href="#!">연구소둘러보기</a></li>
+                            <li><a href="#!">찾아오시는길</a></li>
+                            <li><a href="#!">수질검사안내</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>동북수도사업소</h3>
+                        <ul>
+                            <li><a href="#!">조직안내</a></li>
+                            <li><a href="#!">전화번호</a></li>
+                            <li><a href="#!">찾아오시는길</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="gnb-mega-box">
+                        <h3>서남광산수도사업소</h3>
+                        <ul>
+                            <li><a href="#!">조직안내</a></li>
+                            <li><a href="#!">전화번호</a></li>
+                            <li><a href="#!">찾아오시는길</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        </div>
+    </nav>
+    </header>
+
+
+    <main id="main-content">
+        <!-- 히어로 -->
+        <section class="hero-section py-4 py-lg-5">
+            <div class="container">
+                <div class="row g-4 align-items-stretch">
+                <!-- LEFT : 배너 이미지 캐러셀 -->
+                <div class="col-12 col-lg-7">
+                    <div
+                    id="heroBannerCarousel"
+                    class="carousel slide hero-carousel"
+                    data-bs-ride="carousel"
+                    data-bs-interval="7000"
+                    >
+                    <div class="carousel-inner">
+                        <!-- 배너 1 : 수도요금 전자고지/할인제도 -->
+                        <div class="carousel-item active">
+                            <img src="images/banner1.jpg"/>
+                        <!-- <div class="hero-visual">
+                        </div> -->
+                        </div>
+
+                        <!-- 배너 2 : 상수도요금 현실화 / 시설투자 -->
+                        <div class="carousel-item">
+                            <img src="images/banner2.jpg"/>
+                        <!-- <div class="hero-visual">
+                        </div> -->
+                        </div>
+                    </div>
+
+                    <!-- 인디케이터 -->
+                    <div class="hero-carousel-indicators">
+                        <button
+                        type="button"
+                        data-bs-target="#heroBannerCarousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="배너 1"
+                        ></button>
+                        <button
+                        type="button"
+                        data-bs-target="#heroBannerCarousel"
+                        data-bs-slide-to="1"
+                        aria-label="배너 2"
+                        ></button>
+                    </div>
+
+                    <!-- 좌우 컨트롤 -->
+                    <button
+                        class="hero-carousel-control prev"
+                        type="button"
+                        data-bs-target="#heroBannerCarousel"
+                        data-bs-slide="prev"
+                    >
+                        <i class="fa-solid fa-angle-left"></i>
+                        <span class="visually-hidden">이전 배너</span>
+                    </button>
+                    <button
+                        class="hero-carousel-control next"
+                        type="button"
+                        data-bs-target="#heroBannerCarousel"
+                        data-bs-slide="next"
+                    >
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span class="visually-hidden">다음 배너</span>
+                    </button>
+                    </div>
+                </div>
+
+                <!-- RIGHT : 소식 게시판 (공지/수의계약/입찰/채용) -->
+                <div class="col-12 col-lg-5">
+                    <div class="card-soft pastel-hero-board">
+                    <div class="hero-board-header">
+                        <!-- <div class="hero-board-title">
+                            <span class="hero-board-dot"></span>
+                            <span>소식 · 공지</span>
+                        </div> -->
+                    </div>
+                    
+                    <!-- 탭 버튼 -->
+                    <div class="notice-box">
+                        <ul class="nav hero-board-tabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button
+                                class="nav-link active"
+                                id="hero-tab-notice"
+                                data-bs-toggle="tab"
+                                data-bs-target="#hero-panel-notice"
+                                type="button"
+                                role="tab"
+                            >
+                                공지사항
+                            </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link"
+                                id="hero-tab-outage"
+                                data-bs-toggle="tab"
+                                data-bs-target="#hero-panel-outage"
+                                type="button"
+                                role="tab"
+                            >
+                                수의계약 공개방
+                            </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                            <button class="nav-link" type="button" role="tab">
+                                입찰공고
+                            </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link"
+                                id="hero-tab-press"
+                                data-bs-toggle="tab"
+                                data-bs-target="#hero-panel-press"
+                                type="button"
+                                role="tab"
+                            >
+                                채용정보
+                            </button>
+                            </li>
+                        </ul>   
+                        <a href="#!" class="hero-board-more">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+
+                    <!-- 탭 콘텐츠 -->
+                    <div class="tab-content hero-board-content">
+                        <!-- 공지사항 -->
+                        <div
+                        class="tab-pane fade show active"
+                        id="hero-panel-notice"
+                        role="tabpanel"
+                        aria-labelledby="hero-tab-notice"
+                        >
+                        <ul class="hero-board-list">
+                            <li>
+                            <strong>상·하수도요금 인상 안내문</strong>
+                            <span class="date">2025-11-19</span>
+                            </li>
+                            <li>
+                            <strong>아파트 세대별 분전 수도계량기 교체 관련 안내</strong>
+                            <span class="date">2025-11-11</span>
+                            </li>
+                            <li>
+                            <strong>상수도사업본부 직원 사칭 사기 주의 당부</strong>
+                            <span class="date">2025-10-23</span>
+                            </li>
+                            <li>
+                            <strong>수도요금 전자고지 서비스 및 할인제도 안내</strong>
+                            <span class="date">2025-04-17</span>
+                            </li>
+                        </ul>
+                        </div>
+
+                        <!-- 수의계약 공개방 -->
+                        <div
+                        class="tab-pane fade"
+                        id="hero-panel-outage"
+                        role="tabpanel"
+                        aria-labelledby="hero-tab-outage"
+                        >
+                        <ul class="hero-board-list">
+                            <li>
+                            <strong>[경영부(재무팀)] 수의계약 내역공개(2025.09 ~ 10)</strong>
+                            <span class="date">2025-11-11</span>
+                            </li>
+                            <li>
+                            <strong>[용연정수사업소] 수의계약 내역공개(2025.09 ~ 10)</strong>
+                            <span class="date">2025-11-05</span>
+                            </li>
+                            <li>
+                            <strong>[덕남정수사업소] 수의계약 내역공개 2025.3분기</strong>
+                            <span class="date">2025-10-01</span>
+                            </li>
+                            <li>
+                            <strong>[용연정수사업소] 수의계약 내역공개(7 ~ 8월)</strong>
+                            <span class="date">2025-09-16</span>
+                            </li>
+                        </ul>
+                        </div>
+
+                        <!-- 채용정보 -->
+                        <div
+                        class="tab-pane fade"
+                        id="hero-panel-press"
+                        role="tabpanel"
+                        aria-labelledby="hero-tab-press"
+                        >
+                        <ul class="hero-board-list">
+                            <li>
+                            <strong>2026년 덕남정수사업소 구내식당 (영양사) 기간제···</strong>
+                            <span class="date">2025-11-13</span>
+                            </li>
+                            <li>
+                            <strong>2026년 상수도사업본부 기간제근로자(상수도검침원)···</strong>
+                            <span class="date">2025-11-07</span>
+                            </li>
+                            <li>
+                            <strong>2025년 하반기 동복호 이주민 쉼터 기간제근로자 최종···</strong>
+                            <span class="date">2025-08-28</span>
+                            </li>
+                            <li>
+                            <strong>2025년 하반기 용연정수사업소 동복호 이주민쉼터 기···</strong>
+                            <span class="date">2025-08-25</span>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            </section>
+
+
+
+        <!-- 자주 찾는 서비스 : 배너 바로 아래, 강한 색 대비 -->
+        <section class="service-section py-3 py-lg-4">
+            <div class="container">
+                <div class="section-title section-title--yellow mb-3">
+                <span class="section-chip section-chip--yellow"></span>
+                <span class="section-title-text">
+                    자주 찾는 서비스
+                </span>
+                </div>
+
+                <div class="row g-2 g-sm-3 g-lg-3">
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                        <div class="service-icon service-icon--blue">
+                            <i class="fa-solid fa-file-invoice"></i>
+                        </div>
+                        <div>
+                            <h5>요금조회</h5>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                        <div class="service-icon service-icon--mint">
+                            <i class="fa-solid fa-credit-card"></i>
+                        </div>
+                        <div>
+                            <h5>요금납부<br>안내</h5>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                        <div class="service-icon service-icon--yellow">
+                            <i class="fa-regular fa-credit-card"></i>
+                        </div>
+                        <div>
+                            <h5>신용카드<br>자동납부</h5>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                        <div class="service-icon service-icon--orange">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                        </div>
+                        <div>
+                            <h5>전자고지<br>할인신청</h5>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                        <div class="service-icon service-icon--red">
+                            <i class="fa-solid fa-wrench"></i>
+                        </div>
+                        <div>
+                            <h5>급수공사<br>신청</h5>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                        <div class="service-icon service-icon--purple">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <div>
+                            <h5>요금<br>이의신청</h5>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                        <div class="service-icon service-icon--navy">
+                            <i class="fa-solid fa-user-pen"></i>
+                        </div>
+                        <div>
+                            <h5>수전<br>명의변경</h5>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="#!" class="service-card">
+                            <div class="service-icon service-icon--green">
+                                <i class="fa-solid fa-droplet-slash"></i>
+                            </div>
+                            <div>
+                                <h5>옥내누수<br>감면</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 오늘의 상수도 현황 -->
+        <!-- 오늘의 상수도 현황 + 실시간 정수장 수질 -->
+        <section class="water-today-section py-4">
+            <div class="container">
+                <div class="row g-4">
+                <!-- LEFT : 덕남 / 용연 / 동복댐 탭 -->
+                <div class="col-12 col-lg-7">
+                    <div class="water-today-card">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="section-title section-title--blue mb-0">
+                                <span class="section-chip section-chip--blue"></span>
+                                <span class="section-title-text">
+                                <!-- <i class="fa-solid fa-gauge-high"></i> -->
+                                오늘의 상수도 현황
+                                </span>
+                            </div>
+
+                            <!-- 단수/공사 안내 바로가기 (아리수 단수안내 타일 벤치마킹) -->
+                            <a href="#!" class="today-outage-link small">
+                                <i class="fa-solid fa-droplet-slash me-1"></i>
+                                단수·공사 안내 바로가기
+                                <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                            </a>
+                        </div>
+
+                        <!-- 정수장 탭 -->
+                        <ul class="nav nav-pills water-plant-tabs mb-3" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button
+                                class="nav-link active"
+                                id="plant-deoknam-tab"
+                                data-bs-toggle="tab"
+                                data-bs-target="#plant-deoknam"
+                                type="button"
+                                role="tab"
+                                >
+                                덕남정수장
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button
+                                class="nav-link"
+                                id="plant-yongyeon-tab"
+                                data-bs-toggle="tab"
+                                data-bs-target="#plant-yongyeon"
+                                type="button"
+                                role="tab"
+                                >
+                                용연정수장
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button
+                                class="nav-link"
+                                id="plant-dongbok-tab"
+                                data-bs-toggle="tab"
+                                data-bs-target="#plant-dongbok"
+                                type="button"
+                                role="tab"
+                                >
+                                동복댐
+                                </button>
+                            </li>
+                        </ul>
+
+                        <!-- 탭 컨텐츠 -->
+                        <div class="tab-content water-plant-content">
+                        <!-- 덕남정수장 -->
+                        <div
+                            class="tab-pane fade show active"
+                            id="plant-deoknam"
+                            role="tabpanel"
+                            aria-labelledby="plant-deoknam-tab"
+                        >
+                            <div class="plant-item">
+                                <div>
+                                    <strong>덕남정수장</strong>
+
+                                    <!-- 수질 지표 카드들 -->
+                                    <div class="plant-metrics">
+                                        <div class="plant-metric">
+                                            <span class="label">pH</span>
+                                            <span class="value">6.80</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">색도</span>
+                                            <span class="value">0</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">탁도</span>
+                                            <span class="value">0.04 NTU</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">잔류 염소</span>
+                                            <span class="value">0.75 mg/L</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">맛</span>
+                                            <span class="value">없음</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">냄새</span>
+                                            <span class="value">없음</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-end">
+                                    <span class="plant-status-chip">현재 수질상태 적합</span>
+                                    <div class="mt-1 small text-muted">생산량 202천㎥/일</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 용연정수장 -->
+                        <div
+                            class="tab-pane fade"
+                            id="plant-yongyeon"
+                            role="tabpanel"
+                            aria-labelledby="plant-yongyeon-tab"
+                        >
+                            <div class="plant-item">
+                                <div>
+                                    <strong>용연정수장</strong>
+
+                                    <div class="plant-metrics">
+                                        <div class="plant-metric">
+                                            <span class="label">pH</span>
+                                            <span class="value">6.91</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">색도</span>
+                                            <span class="value">0</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">탁도</span>
+                                            <span class="value">0.05 NTU</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">잔류 염소</span>
+                                            <span class="value">0.72 mg/L</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">맛</span>
+                                            <span class="value">없음</span>
+                                        </div>
+                                        <div class="plant-metric">
+                                            <span class="label">냄새</span>
+                                            <span class="value">없음</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-end">
+                                    <span class="plant-status-chip">현재 수질상태 적합</span>
+                                    <div class="mt-1 small text-muted">생산량 293천㎥/일</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 동복댐 -->
+                        <div
+                            class="tab-pane fade"
+                            id="plant-dongbok"
+                            role="tabpanel"
+                            aria-labelledby="plant-dongbok-tab"
+                        >
+                            <div class="plant-item">
+                                <div>
+                                    <strong>동복댐</strong>
+
+                                    <div class="plant-metrics">
+                                        <div class="plant-metric" style="padding: 1.87rem;">
+                                            <span class="label">저수율</span>
+                                            <span class="value">94.64%</span>
+                                        </div>
+                                        <div class="plant-metric" style="padding: 1.87rem;">
+                                            <span class="label">저수량</span>
+                                            <span class="value">87,040천㎥/일</span>
+                                        </div>
+                                        <div class="plant-metric" style="padding: 1.87rem;">
+                                            <span class="label">취수량</span>
+                                            <span class="value">294천㎥/일</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- // tab-content -->
+                    </div>
+                </div>
+
+
+                <!-- RIGHT : 오늘의 정수장 수질 + 대표전화 -->
+                <div class="col-12 col-lg-5">
+                    <div class="water-summary-card h-100">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <div>
+                                <h5 class="mb-1">실시간 정수장 수질</h5>
+                                <p class="summary-desc mb-2">
+                                    먹는 물은 시민의 건강을 보존ㆍ증진하는 생명의 원천으로서  <br>
+                                    그 고장 문화수준의 척도요, 시정서비스의 으뜸 과제입니다. 앞으로도 모든  <br>
+                                    광주시민이 수돗물을 안심하고 마실 수 있도록 상수원 수질관리와 정수처리,  <br>
+                                    급수환경 개선을 위한 노력을 계속하겠습니다.<br>
+                                </p>
+                                </div>
+                                <span class="summary-badge">
+                                <i class="fa-solid fa-shield-heart me-1"></i>
+                                양호
+                                </span>
+                            </div>
+
+                            <ul class="summary-metrics">
+                                <li>
+                                    <span class="label">평균 pH</span>
+                                    <span class="value">6.8</span>
+                                </li>
+                                <li>
+                                    <span class="label">평균 탁도</span>
+                                    <span class="value">0.05 NTU</span>
+                                </li>
+                                <li>
+                                    <span class="label">평균 잔류 염소</span>
+                                    <span class="value">0.75 mg/L</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 대표전화 / 고객센터 배너 -->
+                <div class="cs-band mt-4">
+                    <div class="cs-band-inner">
+                        <!-- 왼쪽 : 일러스트 + 타이틀 -->
+                        <div class="cs-band-left">
+                        <div class="cs-illust">
+                            <!-- 실제 일러스트 이미지로 교체해서 사용 -->
+                            <img src="images/number.png" alt="상수도 고객센터 일러스트" />
+                        </div>
+                        <div>
+                            <div class="cs-tag">광주광역시 상수도사업본부</div>
+                            <div class="cs-title">상수도 고객센터</div>
+                            <div class="cs-sub">시민 여러분의 편리한 물 사용을 함께 돕습니다.</div>
+                        </div>
+                        </div>
+        
+                        <!-- 오른쪽 : 대표전화 + 버튼 2개 -->
+                        <div class="cs-band-right">
+                        <div class="cs-phone">
+                            <span class="cs-phone-label">대표전화</span>
+                            <span class="cs-phone-number">062-609-6000</span>
+                        </div>
+                        <div class="cs-actions">
+                            <a href="#!" class="cs-btn cs-btn-primary">
+                            요금·민원 상담
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                            <a href="#!" class="cs-btn cs-btn-outline">
+                            단수·누수 신고
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 상수도 홍보관 섹션 -->
+        <section class="water-promo-section py-5">
+            <div class="container">
+                <!-- 타이틀 -->
+                <div class="d-flex justify-content-between align-items-end mb-3">
+                <div>
+                    <h2 class="water-promo-heading mb-1">상수도 홍보·체험관</h2>
+                    <p class="water-promo-sub mb-0">
+                        수돗물 체험캠프, 정수장 견학, 시민참여단 활동을 한눈에 확인하세요.
+                    </p>
+                </div>
+                <a href="#!" class="water-promo-more d-none d-lg-inline-flex align-items-center">
+                    시민참여공간 전체보기
+                    <i class="fa-solid fa-angle-right ms-1"></i>
+                </a>
+                </div>
+
+                <div class="row g-4">
+                <!-- 왼쪽 : 큰 홍보 카드 3개 -->
+                <div class="col-12 col-lg-8">
+                    <div class="row g-3">
+                    <!-- 카드 1 : 수돗물 체험캠프 -->
+                    <div class="col-12 col-md-4">
+                        <a href="#!" class="water-promo-card">
+                        <div
+                            class="water-promo-bg"
+                            style="background-image:url('images/promo-camp.jpg');"
+                        ></div>
+                        <div class="water-promo-overlay"></div>
+                        <div class="water-promo-text">
+                            <span class="badge badge-light mb-1 small">어린이·가족 체험</span>
+                            <div class="title">수돗물 체험캠프</div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <!-- 카드 2 : 정수장 견학서비스 -->
+                    <div class="col-12 col-md-4">
+                        <a href="#!" class="water-promo-card">
+                        <div
+                            class="water-promo-bg"
+                            style="background-image:url('images/promo-plant-tour.jpg');"
+                        ></div>
+                        <div class="water-promo-overlay"></div>
+                        <div class="water-promo-text">
+                            <span class="badge badge-light mb-1 small">현장 견학</span>
+                            <div class="title">정수장 견학서비스</div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <!-- 카드 3 : 시민참여단 / 홍보자료 -->
+                    <div class="col-12 col-md-4">
+                        <a href="#!" class="water-promo-card">
+                        <div
+                            class="water-promo-bg"
+                            style="background-image:url('images/promo-citizen-group.jpg');"
+                        ></div>
+                        <div class="water-promo-overlay"></div>
+                        <div class="water-promo-text">
+                            <span class="badge badge-light mb-1 small">시민참여</span>
+                            <div class="title">상수도 시민참여단 활동</div>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- 오른쪽 : 실제 메뉴 빠르게 가는 링크 리스트 -->
+                <div class="col-12 col-lg-4">
+                    <div class="water-promo-sidecard">
+                    <div class="sidecard-header">
+                        <div>
+                        <div class="label">온라인 바로가기</div>
+                        <div class="title">시민참여 서비스</div>
+                        </div>
+                        <div class="side-illust">
+                        <!-- 작은 캐릭터/아이콘 이미지 -->
+                        <img src="images/water-illustrator.png" alt="수돗물 캐릭터" />
+                        </div>
+                    </div>
+
+                    <ul class="water-promo-link-list">
+                        <li>
+                        <a href="#!">
+                            <span>수돗물 체험캠프 안내</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#!">
+                            <span>정수장 견학서비스 신청</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#!">
+                            <span>상수도본부에 바란다</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#!">
+                            <span>고객질의 / 답변</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#!">
+                            <span>시민참여단 모집 안내</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        </li>
+                    </ul>
+
+                    <a href="#!" class="water-promo-more d-inline-flex align-items-center mt-2 d-lg-none">
+                        시민참여공간 전체보기
+                        <i class="fa-solid fa-angle-right ms-1"></i>
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    </main>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="container">
+        <div class="footer-links mb-2">
+            <a href="#!">행정서비스헌장</a>
+            <a href="#!">개인정보처리방침</a>
+            <a href="#!">이용약관</a>
+            <a href="#!">저작권보호정책</a>
+        </div>
+        <div class="small">
+            <div>광주광역시 상수도사업본부</div>
+            <div>(우)61748 광주광역시 남구 덕남1길 27(행암동)</div>
+            <div>대표전화 062-609-6000 · 팩스 062-609-6119</div>
+            <div class="mt-2 text-secondary">
+            환경부 · K-water · 한국상하수도협회 · 광주광역시
+            </div>
+            <div class="mt-2 text-secondary">
+            Copyright © 광주광역시 상수도사업본부. All rights reserved.
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function () {
+            const mega = document.getElementById("gnbMega");
+            if (!mega) return;
+
+                const panels = mega.querySelectorAll(".gnb-mega-panel");
+                const links = document.querySelectorAll(".main-gnb-link");
+                const header = document.querySelector(".site-header");
+
+                function setActiveLink(menuKey) {
+                links.forEach((link) => {
+                    if (link.dataset.menu === menuKey) {
+                    link.classList.add("is-active");
+                    } else {
+                    link.classList.remove("is-active");
+                    }
+                });
+            }
+
+            function openMega(menuKey) {
+                if (window.innerWidth < 992) return; // 모바일에서는 메가메뉴 X
+                mega.classList.add("is-open");
+                mega.setAttribute("aria-hidden", "false");
+                panels.forEach((p) => {
+                    p.classList.toggle("active", p.dataset.menu === menuKey);
+                });
+                setActiveLink(menuKey);
+            }
+
+            function closeMega() {
+                mega.classList.remove("is-open");
+                mega.setAttribute("aria-hidden", "true");
+                links.forEach((l) => l.classList.remove("is-active"));
+            }
+
+            links.forEach((link) => {
+                const key = link.dataset.menu;
+                link.addEventListener("mouseenter", () => openMega(key));
+                link.addEventListener("focusin", () => openMega(key));
+            });
+
+            // 헤더 바깥으로 나가면 닫기
+            header.addEventListener("mouseleave", () => {
+                closeMega();
+            });
+
+            // ESC 키로 닫기
+            document.addEventListener("keydown", (e) => {
+                if (e.key === "Escape") closeMega();
+            });
+        })();
+    </script>
+
+
+</body>
+</html>
